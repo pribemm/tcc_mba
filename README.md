@@ -2,7 +2,7 @@
 Este projeto tem como objetivo analisar os microdados do ENEM 2023 e desenvolver um modelo preditivo para identificar os alunos com melhor desempenho na prova de Matemática.
 
 Esse projeto tem como objetivo:
-- Identificar padrões entre os alunos com notas acima de 800 em Matemática.
+- Identificar padrões entre os alunos com notas acima do percentil 80 em Matemática.
 - Desenvolver um modelo de machine learning para prever alunos com alto desempenho.
 - Extrair insights sobre fatores socioeconômicos e de estudo que influenciam o desempenho. 
 
