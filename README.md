@@ -17,6 +17,5 @@ As principais análises envolvem:
 
 Próximo passos:
 
--Criar um dashboard interatidos dos dados
-
--Incorporar dados de edições anteriores
+- Criar um dashboard interatidos dos dados
+- Incorporar dados de edições anteriores
