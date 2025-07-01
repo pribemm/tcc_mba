@@ -462,7 +462,8 @@ dados_analise=presentes_df_enem_2023[['INSCRICAO','FAIXA_ETARIA',
 presentes_df_enem_2023_dummies = pd.get_dummies(dados_analise, columns=colunas_dummies, drop_first=True)
 
 # Salvando os dataframes, que serão analisados e para algoritmos de machine learning, em um arquivo parquet
-presentes_df_enem_2023.to_parquet('G://Meu Drive//ciencia de dados//Pos//TCC//TCC//presentes_df_enem_2023.csv', index=False)
-top_20.to_parquet('G://Meu Drive//ciencia de dados//Pos//TCC//TCC//top_20.csv', index=False)
-df_enem_2023.to_parquet('G://Meu Drive//ciencia de dados//Pos//TCC//TCC//df_enem_2023.csv', index=False)
-presentes_df_enem_2023_dummies.to_parquet('G://Meu Drive//ciencia de dados//Pos//TCC//TCC//presentes_df_enem_2023_dummies.csv', index=False)
+presentes_df_enem_2023.to_parquet('G://Meu Drive//ciencia de dados//Pos//TCC//TCC//presentes_df_enem_2023.parquet', index=False)
+top_20.to_parquet('G://Meu Drive//ciencia de dados//Pos//TCC//TCC//top_20.parquet', index=False)
+df_enem_2023.to_parquet('G://Meu Drive//ciencia de dados//Pos//TCC//TCC//df_enem_2023.parquet', index=False)
+presentes_df_enem_2023_dummies.to_parquet('G://Meu Drive//ciencia de dados//Pos//TCC//TCC//presentes_df_enem_2023_dummies.parquet', index=False)
+print('Salvo com sucesso!')
